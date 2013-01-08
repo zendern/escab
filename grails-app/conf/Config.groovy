@@ -89,3 +89,17 @@ log4j = {
            'org.hibernate',
            'net.sf.ehcache.hibernate'
 }
+
+
+grails {
+    mail {
+        host = "email-smtp.us-east-1.amazonaws.com"
+        port = 465
+        username = "AKIAJM6OCD26NBBH4OIQ"
+        password = "AsL3n9gm3Z+b8qDq5vDWWKRwrEB5LgZRcIU37EBq2xvP"
+        props = ["mail.smtp.auth":"true",
+                "mail.smtp.socketFactory.port":"465",
+                "mail.smtp.socketFactory.class":"javax.net.ssl.SSLSocketFactory",
+                "mail.smtp.socketFactory.fallback":"false"]
+    }
+}
