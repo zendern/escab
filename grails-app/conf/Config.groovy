@@ -65,7 +65,6 @@ environments {
     }
     production {
         grails.logging.jul.usebridge = false
-        grails.serverURL = "http://escab.elasticbeanstalk.com"
     }
 }
 
