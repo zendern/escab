@@ -89,7 +89,7 @@ log4j = {
            'net.sf.ehcache.hibernate'
 }
 
-
+/*
 grails {
     mail {
         host = "email-smtp.us-east-1.amazonaws.com"
@@ -101,4 +101,4 @@ grails {
                 "mail.smtp.socketFactory.class":"javax.net.ssl.SSLSocketFactory",
                 "mail.smtp.socketFactory.fallback":"false"]
     }
-}
+}*/
